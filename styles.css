@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    width: 100%;
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #673DE6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5a2eeb;
+  }
+  
+  #loginMessage {
+    margin-top: 10px;
+  }
+
+  /* -------------------------------------------------------------------------- */
+  /* -------------------------------------------------------------------------- */
+  /* -------------------------------------------------------------------------- */
+  
+  .chat-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 6px;
+}
+
+.input-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.msgInpt {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+.msgBtn {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #673DE6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fullContainer {
+    display: block;
+}
+
+.message {
+    background-color: #555;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.message span {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.message .sender {
+    padding-left: 3px;
+}
+
+.messageTime {
+    padding: 0 7px ;
+    text-align: end;
+    text-anchor: end;
+    font-size: 60%;
+    margin-bottom: 2%;
+}
+
