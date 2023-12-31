@@ -105,3 +105,37 @@ body {
     margin-bottom: 2%;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .login-container {
+    display: block;
+    align-items: center;
+    width: auto;
+    height: max-content;
+  }
+  .login-container #loginForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-container #loginForm button {
+    margin: 5px 0;
+  }
+  .chat-container {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
